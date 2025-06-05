@@ -589,6 +589,21 @@ end
 if Question == "Name a common boy's name starting with the letter 'C'" then
     game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Christopher", "Name a common boy's name starting with the letter 'C'")   
 end
+if Question == "Name a common girl's name starting with the letter 'E'" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Elizabeth", "Name a common girl's name starting with the letter 'E'")   
+end
+
+if Question == "Name one of Santa's reindeer" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Rudolph", "Name one of Santa's reindeer")   
+end
+
+if Question == "Name a fashion brand" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Louis Vuitton", "Name a fashion brand")   
+end
+
+if Question == "Name a type of US coin" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Quarter", "Name a type of US coin")   
+end
 end
 end)
 end
