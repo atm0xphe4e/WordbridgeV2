@@ -558,16 +558,12 @@ if Question == "Name a popular electronic device" then
     game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Smartphone", "Name a popular electronic device")   
 end
 
-if Question == "Name a famous movie monster" then
-    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Godzilla", "Name a famous movie monster")   
-end
-
 if Question == "Name a famous basketball player" then
-    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Michael Jordan", "Name a famous basketball player")   
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("MichaelJordan", "Name a famous basketball player")   
 end
 
 if Question == "Name a famous baseball player" then
-    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Babe Ruth", "Name a famous baseball player")   
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("BabeRuth", "Name a famous baseball player")   
 end
 
 if Question == "Name something associated with Football" then
@@ -589,6 +585,7 @@ end
 if Question == "Name a common boy's name starting with the letter 'C'" then
     game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Christopher", "Name a common boy's name starting with the letter 'C'")   
 end
+
 if Question == "Name a common girl's name starting with the letter 'E'" then
     game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Elizabeth", "Name a common girl's name starting with the letter 'E'")   
 end
@@ -598,11 +595,30 @@ if Question == "Name one of Santa's reindeer" then
 end
 
 if Question == "Name a fashion brand" then
-    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Louis Vuitton", "Name a fashion brand")   
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("LouisVuitton", "Name a fashion brand")   
 end
 
 if Question == "Name a type of US coin" then
-    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Quarter", "Name a type of US coin")   
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Quarter", "Name a type of US coin")
+end
+if Question == "Name a DC super villain" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("LexLuthor", "Name a DC super villain")   
+end
+
+if Question == "Name something you wear on your torso" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Sweatshirt", "Name something you wear on your torso")   
+end
+
+if Question == "Name a form of public transportation" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("SubwayTrain", "Name a form of public transportation")   
+end
+
+if Question == "Name a popular ANIMATED Disney film" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("TheLionKing", "Name a popular ANIMATED Disney film")   
+end
+
+if Question == "Name something you draw with" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("ColoredPencil", "Name something you draw with")   
 end
 end
 end)
