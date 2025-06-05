@@ -554,5 +554,41 @@ end
 if Question == "Name something that comes in pairs" then
 game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Chopsticks","Name something that comes in pairs")
 end
+if Question == "Name a popular electronic device" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Smartphone", "Name a popular electronic device")   
+end
+
+if Question == "Name a famous movie monster" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Godzilla", "Name a famous movie monster")   
+end
+
+if Question == "Name a famous basketball player" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Michael Jordan", "Name a famous basketball player")   
+end
+
+if Question == "Name a famous baseball player" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Babe Ruth", "Name a famous baseball player")   
+end
+
+if Question == "Name something associated with Football" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Touchdown", "Name something associated with Football")   
+end
+
+if Question == "Name a place where you study" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Library", "Name a place where you study")   
+end
+
+if Question == "Name a well-known children's card game" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("UNO", "Name a well-known children's card game")   
+end
+
+if Question == "Name a common boy's name starting with the letter 'B'" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Benjamin", "Name a common boy's name starting with the letter 'B'")   
+end
+
+if Question == "Name a common boy's name starting with the letter 'C'" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Christopher", "Name a common boy's name starting with the letter 'C'")   
+end
+end
 end)
 end
