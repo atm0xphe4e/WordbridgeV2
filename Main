@@ -1,0 +1,558 @@
+   
+while true do
+    pcall(function()
+    local Question = game:GetService("Players").LocalPlayer.PlayerGui.GameGui.Prompt.Question.Text
+    wait()
+if Question == "Name a kitchen appliance" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Refrigerator","Name a kitchen appliance")   
+end
+if Question == "What is something associated with pirates" then    
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("pirateship","What is something associated with pirates")
+end
+if Question == "What is one ice cream topping?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Whipped cream","What is one ice cream topping?")
+end
+if Question == "Name a car brand" then
+        game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("ford","Name a car brand")
+end
+if Question == "What is something you would find in your closet" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("clothes hanger","What is something you would find in your closet")
+end
+if Question == "Name a marine animal" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("shark","Name a marine animal")
+end
+if Question == "What is something associated with pirates" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("parrot","What is something associated with pirates")
+end
+if Question ==  "Name a drink with caffeine"  then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("coffee","Name a drink with caffeine")
+end
+if Question == "What is one common baking ingredient" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("bakingpowder","What is one common baking ingredient")
+end
+if Question == "Name a breakfast item" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("pancake","Name a breakfast item")
+end
+if Question == "Name a movie genre" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("horror","Name a movie genre")
+end
+if Question == "Name a disney princess" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Vanellope Von Schweetz","Name a disney princess")
+end
+if Question == "Name a type of sword" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("double edged sword","Name a type of sword")
+end
+if Question == "Name a snake" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("rattlesnake","Name a snake")
+end
+if Question == "What is something that's yellow?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("banana","What is something that's yellow?")
+end
+if Question == "What is one thing you would find at a birthday party" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("cake","What is one thing you would find at a birthday party")
+end
+if Question == "Name a form of public transportation" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("train","Name a form of public transportation")
+end
+if Question == "What is something that would be worn during winter?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("coat","What is something that would be worn during winter?")
+end
+if Question =="Name a type of meat" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("chicken","Name a type of meat")
+end
+    if Question == "Name a character from Stranger Things" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("steve","Name a character from Stranger Things") 
+end
+if Question == "What is an animal present in Minecraft" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("horse","What is an animal present in Minecraft")
+end
+if Question == "Name a month of the year" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("march","Name a month of the year")
+end  
+if Question == "What is an animal that you would find in a zoo?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("gorilla","What is an animal that you would find in a zoo?")
+end    
+if Question == "Name a TWO dimensional shape" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("square","Name a TWO dimensional shape")
+end
+ if Question == "Name a character from Spongebob Squarepants" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("spongebob","Name a character from Spongebob Squarepants")
+end
+if Question == "What is something you would find in a movie theater" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("movie","What is something you would find in a movie theater")
+end 
+if Question == "Name a TWO dimensional shape" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("square","Name a TWO dimensional shape")
+end
+if Question == "Name a gaming console" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("playstation","Name a gaming console")  
+end
+if Question == "What is one thing associated with Christmas?" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("presents","What is one thing associated with Christmas?")
+end
+if Question == "Name a pasta noodle" then
+game:GetService("ReplicatedStorage").QuestionEvent:FireServer("spaghetti","Name a pasta noodle")
+end
+if Question == "What is one character from Sesame Street?" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("elmo","What is one character from Sesame Street?")
+end
+if Question == "What is one street sign" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("stop","What is one street sign")
+end    
+if Question == "What is one thing associated to Halloween?" then    
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("pumpkin","What is one thing associated to Halloween?")
+end
+if Question == "Name a greek god" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Hephaestus","Name a greek god")
+end
+if Question == "Name a type of cheese" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("swiss","Name a type of cheese")
+end
+if Question == "Colors of the rainbow?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("orange","Colors of the rainbow?")
+end  
+if Question == "Name a form of measurement" then  
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("meters","Name a form of measurement")
+end
+if Question == "What is one marvel superhero" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("ironman","What is one marvel superhero")
+end
+if Question == "Name an ocean" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("pacific","Name an ocean")
+end
+if Question == "Name a type of bag" then 
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("plastic","Name a type of bag")
+end 
+if Question == "Name a popular candy brand" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("mars","Name a popular candy brand") 
+end
+if Question == "What is something related to camping?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Grahamcrackers","What is something related to camping?")    
+end
+if Question == "What is something used to light a fire" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("flintandsteel","What is something used to light a fire") 
+end
+if Question == "Name a mythical creature" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("dragon","Name a mythical creature")
+end
+if Question == "What is something that can get recycled?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("plasticbottle","What is something that can get recycled?")
+end
+if Question == "Name a number 1-10 (One-Ten)" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("three","Name a number 1-10 (One-Ten)")
+end
+if Question == "Name a condiment" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("ketchup","Name a condiment")
+end
+if Question == "What is something you would find at the beach?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("shells","What is something you would find at the beach?")
+end
+if Question == "What is one dairy product?" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("cheese","What is one dairy product?")
+end
+if Question == "Name a state of matter" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Solid","Name a state of matter")
+end
+if Question == "Name a flower" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Dandelions","Name a flower")   
+end
+if Question == "What is one form of cooked steak?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("mediumrare","What is one form of cooked steak?")  
+end
+if Question == "Name a flightless bird" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("penguin","Name a flightless bird")
+end
+if Question == "Name a school subject" then    
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("math","Name a school subject")
+end
+if Question == "Name something that's cold" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("ice","Name something that's cold")
+end
+if Question == "Name a form of transportation" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("airplane","Name a form of transportation")
+end
+if Question == "Name a popular streaming service" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Netflix","Name a popular streaming service")
+end
+if Question == "Name one of the top 10 largest animals" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("bluewhale","Name one of the top 10 largest animals")
+end 
+if Question == "Name something you would find in a hotel" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("bed","Name something you would find in a hotel")
+end    
+if Question == "Name a THREE dimensional shape" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("rectangularprism","Name a THREE dimensional shape")
+end
+if Question == "Name a type of footwear" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Boots","Name a type of footwear")
+end
+if Question == "What is one neon color?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("pink","What is one neon color?")
+end
+if Question == "Name a school supply item" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("pencil","Name a school supply item")
+end
+if Question == "What is one country in Europe?" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("germany","What is one country in Europe?")
+end
+if Question == "Name one part of a car" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Engine","Name one part of a car")
+end
+if Question == "What is something that comes in pairs?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("twins","What is something that comes in pairs?")
+end
+if Question == "Name a type of legume (bean)" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("lima","Name a type of legume (bean)")
+end
+ if Question == "What is something you would find at a park" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("grass","What is something you would find at a park")
+end    
+if Question == "Name a starter pokemon" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Charmander","Name a starter pokemon")
+end
+if Question == "Name one of the astrological signs" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Sagittarius","Name one of the astrological signs")
+end
+if Question == "What is one country in Europe?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("unitedkingdom","What is one country in Europe?")
+end
+if Question == "Name a common pet" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("cat","Name a common pet")
+end
+if Question == "What is something that you can find in a Living Room?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("tv","What is something that you can find in a Living Room?")
+end
+if Question == "Name a common allergy" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("peanuts","Name a common allergy")
+end
+if Question == "what is a part of a bed" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("frame","what is a part of a bed")
+end
+if Question == "Name a shoe brand" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Nike","Name a shoe brand")
+end
+if Question == "What is one food served during Thanksgiving?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("turkey","What is one food served during Thanksgiving?")
+end
+if Question == "What is one element on the Periodic Table (full name)?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("platinum","What is one element on the Periodic Table (full name)?")
+end
+if Question == "What is something that goes in a sandwich?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("turkey","What is something that goes in a sandwich?")
+end
+if Question == "Name one muppet" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("kermit","Name one muppet")
+end
+if Question == "Name a chip brand" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Doritos","Name a chip brand")
+end
+if Question == "Name a type of bread" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("wheat","Name a type of bread")
+end
+if Question == "Name a pepper" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("carolinareaper","Name a pepper")
+end
+if Question == "Name a piece of jewelry" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Necklace","Name a piece of jewelry")
+end
+if Question == "Name a music genre" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("heavymetal","Name a music genre")
+end
+if Question == "Name a type of boat" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("pontoon","Name a type of boat")
+end
+if Question == "What is something you would find in a backyard" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("trampoline","What is something you would find in a backyard")
+end
+if Question == "What is something that's blue" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer( "smurf","What is something that's blue")
+end
+if Question == "Name a character from the sonic franchise" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("sonicthehedgehog","Name a character from the sonic franchise")   
+end
+if Question ==  "What is something you would eat at a fair?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("CottonCandy","What is something you would eat at a fair?") 
+end
+if Question == "Name a precious metal" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("platinum","Name a precious metal")
+end
+if Question == "What is one state in the United States?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Alabama","What is one state in the United States?")  
+end
+if Question == "Name a character from The Simpsons" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Homersimpson","Name a character from The Simpsons")
+end
+if Question == "Name a holiday" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("christmas","Name a holiday")
+end
+if Question == "What is one DC superhero" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Superman","What is one DC superhero")
+end
+if Question == "What is one social media platform?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("instagram","What is one social media platform?")
+end
+if Question == "Name a cake" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("weddingcake","Name a cake")
+end
+if Question == "Name a card game" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("blackjack","Name a card game")    
+end
+if Question == "Name a clothing material" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Fabric","Name a clothing material")
+end
+if Question == "Name a slow moving animal" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("sloth","Name a slow moving animal")
+end
+if Question == "Name something that's hot" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("carolinareaper","Name something that's hot")
+end
+if Question == "Name the last name of a President of the United States" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("truman","Name the last name of a President of the United States")
+end
+if Question == "What is something people drink in the morning?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("coffee","What is something people drink in the morning?")
+end
+if Question == "Name an explosive" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("dynamite","Name an explosive")
+end
+if Question == "Give a flavor of ice cream" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("chocolate","Give a flavor of ice cream")
+end
+if Question == "What is something that's green?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("grass","What is something that's green?")
+end
+if Question == "Name a type of cookie" then
+    game:GetService("ReplicatedStorage").QuestionEvent:FireServer("whitechocolatechipmacadamianut","Name a type of cookie")
+end
+if Question == "Name a phone brand" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("apple","Name a phone brand")
+end
+if Question == "What is something that goes on toast" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("butter","What is something that goes on toast")
+end
+if Question == "What is one hair styling item?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("brush","What is one hair styling item?")
+end
+if Question == "Name a type of dominus" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Empyreus","Name a type of dominus")
+end
+if Question == "Name a direction" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("forward","Name a direction")
+end
+if Question == "Name a popular board game" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("monopoly","Name a popular board game")
+end
+if Question == "Name a day of the week" then 
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("monday","Name a day of the week")
+end
+if Question == "What is one bodypart?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("forearm","What is one bodypart?")
+end
+if Question == "Name a famous youtuber" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("denis","Name a famous youtuber")
+end
+if Question == "What is something that's orange?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Orange","What is something that's orange?")
+end
+if Question == "What is one planet in our solar system" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("jupiter","What is one planet in our solar system")
+end
+if Question == "Name a citrus" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("orange","Name a citrus")
+end
+if Question == "Name a gemstone" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Diamond","Name a gemstone")
+end
+if Question == "Name a food that you peel" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Banana","Name a food that you peel")
+end
+if Question == "Name a vegetable" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("carrot","Name a vegetable")
+end
+if Question == "Name a continent" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("africa","Name a continent")
+end
+if Question == "Name a makeup" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("lipstick","Name a makeup")
+end
+if Question == "Name a sport" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("football","Name a sport")
+end
+if Question == "Name a type of currency" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("bitcoin","Name a type of currency")
+end
+if Question == "Name a chesspiece" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("king","Name a chesspiece")
+end
+if Question == "Name an insect" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("cricket","Name an insect")
+end
+if Question == "What is a piece of eyewear?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("glasses","What is a piece of eyewear?")
+end
+if Question == "Name a popular pizza chain" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("pizzahut","Name a popular pizza chain")
+end
+if Question == "Name a search engine" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("google","Name a search engine")
+end
+if Question == "Name a pie" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("pumpkin","Name a pie")
+end
+if Question == "What is an enemy in Minecraft" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("skeleton","What is an enemy in Minecraft")
+end
+if Question == "What is something you would find in a hospital" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("bed","What is something you would find in a hospital")
+end
+if Question == "Name a farm animal" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("chicken","Name a farm animal")
+end
+if Question == "What is one popular battle royale" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("fortnite","What is one popular battle royale")
+end
+if Question == "Name a superpower" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("superstrength","Name a superpower")
+end
+if Question == "Name an anime" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("pokemon","Name an anime")
+end
+if Question == "Name a family member" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("mother","Name a family member")
+end
+if Question == "What is something you would eat at a fair?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("funnelcake","What is something you would eat at a fair?")
+end
+if Question == "Name a character from the mario franchise" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("luigi","Name a character from the mario franchise")
+end
+if Question == "What is one type of natural disaster?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("tornado","What is one type of natural disaster?")
+end
+if Question == "Name one of the seven dwarfs" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("bashful","Name one of the seven dwarfs")
+end
+if Question == "Name a flying vehicle" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("airplane","Name a flying vehicle")
+end
+if Question == "Name a dog breed" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Husky","Name a dog breed")
+end
+if Question == "Name a soda brand" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("pepsi","Name a soda brand")
+end
+if Question == "What is one room in a house" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("livingroom","What is one room in a house")
+end
+if Question == "What is something that goes on cake?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("cream","What is something that goes on cake?")
+end
+if Question == "Name an emotion" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("happy","Name an emotion")
+end
+if Question == "Name a video game genre" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("platformer","Name a video game genre")
+end
+if Question == "What is something you would find in a shed" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("shovel","What is something you would find in a shed")
+end
+if Question == "Name a spice" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("pepper","Name a spice")
+end
+if Question == "What is something you can climb?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("tree","What is something you can climb?")
+end
+if Question == "What is one pizza topping?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("cheese","What is one pizza topping?")
+end
+if Question == "What is something that's red?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("apple","What is something that's red?")
+end
+if Question == "Name a type of tree" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("birch","Name a type of tree")
+end
+if Question == "Name a type of hat" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("cowboy","Name a type of hat")
+end
+if Question == "Name one of the seven deadly sins" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("lust","Name one of the seven deadly sins")
+end
+if Question == "What is something that's purple" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("grapes","What is something that's purple")
+end
+if Question == "Name a vital organ" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("heart","Name a vital organ")
+end
+if Question == "What is one job at school" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("teacher","What is one job at school")
+end
+if Question == "Name a berry" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("blueberry","Name a berry")
+end
+if Question == "Name a rodent" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("mouse","Name a rodent")
+end
+if Question == "Name a type of nut" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("walnut","Name a type of nut")
+end
+if Question == "what is something you would find in a bathroom" then
+    game:GetService("ReplicatedStorage").QuestionEvent:FireServer("toilet","what is something you would find in a bathroom")
+end
+if Question == "Name a piece of armor" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("chestplate","Name a piece of armor")
+end
+if Question == "Name a fruit" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("orange","Name a fruit")
+end
+if Question == "Name a scooby doo character" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("scooby","Name a scooby doo character")
+end
+if Question == "Name a musical instrument" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("clarinet","Name a musical instrument")
+end
+if Question == "Name a popular MUSIC streaming service" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("spotify","Name a popular MUSIC streaming service")
+end
+if Question == "What is something that's red?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("blood","What is something that's red?")
+end
+if Question == "What is one type of milk?" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Skim","What is one type of milk?")
+end
+if Question == "Name a kitchen utensil" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("knife","Name a kitchen utensil")
+end
+if Question == "Name an arts & crafts item" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("scissors","Name an arts & crafts item")
+end
+if Question == "Who is one character from the Harry Potter series" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("harry","Who is one character from the Harry Potter series")
+    end
+
+   
+if Question == "Name something associated with vampires" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Blood","Name something associatedwith vampires")
+    end
+if Question == "Name something associated with pirates" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Treasurechests","Name something associated with pirates")
+end
+if Question == "Name a historical figure" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Alexanderthegreat","Name a historical figure")
+end
+if Question == "Name a thing that melts when it gets hot" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("icecream","Name a thing that melts when it gets hot")
+end
+if Question == "Name a type of dominus" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("DominusEmpyreus","Name a type of dominus")
+end
+if Question == "Name something you keep in the car" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Phonecharger","Name something you keep in the car")
+end
+if Question == "name a well-known tropical fruit" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Pineapple","name a well-known tropical fruit")
+end
+if Question == "Name something that comes in pairs" then
+game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Chopsticks","Name something that comes in pairs")
+end
+end)
+end
