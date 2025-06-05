@@ -620,6 +620,21 @@ end
 if Question == "Name something you draw with" then
     game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("ColoredPencil", "Name something you draw with")   
 end
+if Question == "Name a shoe brand" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Nike", "Name a shoe brand")   
+end
+
+if Question == "Name a flying vechicle" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Helicopter", "Name a flying vechicle")   
+end
+
+if Question == "Name a type of donut" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("ChocolateGlazed", "Name a type of donut")   
+end
+
+if Question == "Name a vegetable" then
+    game:GetService("ReplicatedStorage").AnswerFunction:InvokeServer("Cauliflower", "Name a vegetable")   
+end
 end
 end)
 end
